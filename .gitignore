@@ -2,3 +2,4 @@ dist/
 .DS_Store
 *.crx
 *.xpi
+aws-account-header.zip
