@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "AWS Account Header",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Change the color of AWS Header based on account id",
   "icons": {
     "48": "icons/48.png",
@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://console.aws.amazon.com/*"],
+      "matches": ["*://*.console.aws.amazon.com/*"],
       "js": ["aws.js"]
     }
   ],
